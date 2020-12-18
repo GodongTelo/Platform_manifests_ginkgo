@@ -1,0 +1,22 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="trinket-devs"
+		fetch="https:https://github.com/trinket-devs"
+		revision="10.0" />
+
+	<remote name="Kyvangka1610"
+		fetch="https://github.com/Kyvangka1610"
+		revision="Q" />
+
+	<remote name="kdrag0n"
+		fetch="https://github.com/kdrag0n"
+		revision="master" />
+
+	<project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="trinket-devs" />
+	<project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="Kyvangka1610" />
+	<project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="trinket-devs" />
+  <project path="vendor/miuicamera" name="vendor_miuicamera" remote="trinket-devs" />
+	<project path="prebuilts/clang/host/linux-x86/clang-12.0" name="proton-clang" remote="kdrag0n" />
+  
+</manifest>
